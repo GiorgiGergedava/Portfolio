@@ -103,6 +103,8 @@ section .title::after {
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    background-color: #0e1538;
+
 }
 
 .navbar.sticky {
@@ -144,6 +146,7 @@ section .title::after {
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
+   
 }
 
 .navbar .menu li a:hover {
@@ -348,7 +351,7 @@ section .title::after {
 .services,
 .teams {
     color: #fff;
-    background: #111;
+    background: #0e1538;
 }
 
 .services .title::before,
@@ -358,7 +361,7 @@ section .title::after {
 
 .services .title::after,
 .teams .title::after {
-    background: #111;
+    background:#0e1538;
     content: "what i provide";
 }
 
@@ -368,7 +371,7 @@ section .title::after {
     align-items: center;
     flex-wrap: wrap;
     padding: 40px 0;
-    background: crimson;
+    background: #0e1538;
     cursor: pointer;
 }
 
@@ -799,7 +802,7 @@ section .title::after {
 }
 
 .teams .carousel .card {
-    background: #222;
+    /* background: #222; */
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -845,7 +848,7 @@ section .title::after {
     margin: 0 5px;
     outline: none !important;
     border-radius: 50%;
-    border: 2px solid crimson !important;
+    border: 2px solid white !important;
     transition: all 0.3s ease;
 }
 
@@ -856,12 +859,12 @@ section .title::after {
 
 .owl-dot.active,
 .owl-dot:hover {
-    background: crimson !important;
+    background: white !important;
 }
 
 .teams .carousel .card .box .project {
     display: inline-block;
-    color: crimson;
+    color: white;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -1000,7 +1003,7 @@ textarea {
 footer {
     position: relative;
     width: 100%;
-    background: crimson;
+    background-color: #0e1538;
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
@@ -1019,6 +1022,7 @@ footer h2 {
     position: relative;
     display: flex;
     gap: 50px;
+    color: white;
 }
 
 #media li {
